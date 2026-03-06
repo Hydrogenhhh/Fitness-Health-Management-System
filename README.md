@@ -16,7 +16,7 @@ Our team creat a simple Python command-line tool to calculate your Basal Metabol
 
 
 
-## Quick Star
+## Quick Start
 
 
 1. **Run the program**:
