@@ -25,9 +25,10 @@ Our team creat a simple Python command-line tool to calculate your Basal Metabol
     
 2.  **Usage Method**：
     1.  Initialize a `user` object with your personal information.
-    2.  Call the `add_calories()` method to start tracking your food.
-    3.  Follow the prompts to enter the food name and the number of grams you ate.
-    4.  The program will display your current calorie intake and ask if you want to add more food.
+    2.  Select/Calculate the data you want in the menu.
+    3.  Call the `add_calories()` method to start tracking your food.
+    4.  Follow the prompts to enter the food name and the number of grams you ate.
+    5.  The program will display your current calorie intake and ask if you want to add more food.
 
 
 
