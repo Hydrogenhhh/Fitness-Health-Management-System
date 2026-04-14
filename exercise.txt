@@ -1,0 +1,6 @@
+running=300,600,900
+swimming=250,500,750
+yoga=150,300,450
+cycling=200,400,600
+weight lifting=350,700,1050
+football=300,600,900

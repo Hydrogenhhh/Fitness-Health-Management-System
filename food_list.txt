@@ -1,0 +1,10 @@
+{
+"apple": 52,
+"egg": 143,
+"beef": 105,
+"chicken breast": 106,
+"milk": 65,
+"brocoli": 34,
+"carrot": 41,
+"tomato": 18
+}
