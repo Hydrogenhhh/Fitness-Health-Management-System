@@ -1,34 +1,34 @@
 # Fitness-Health-Management-System
-# Calories Count
+## Calories Count
 
-Our team creat a simple Python command-line tool to calculate your Basal Metabolic Rate (BMR), Body Mass Index (BMI), and track your daily food intake, helping you manage your calorie goals.
-
-
+Our team created a simple Python command-line tool to help users manage their daily health data. The system can calculate Body Mass Index (BMI), Basal Metabolic Rate (BMR), track food calorie intake, calculate exercise calorie burn, and generate a weekly calorie report.
 
 ## Features
 
-- **Personal Profile Management**: Records your name, gender, age, height, and weight, and automatically calculates your BMI.
-- **BMR Calculation**: Computes your Basal Metabolic Rate, tailored for both men and women.
-- **Calorie Tracking**: Select from a built-in food database, enter the grams consumed, and automatically accumulate your total calorie intake.
-- **Smart Feedback**: Provides real-time feedback on your calorie intake compared to your BMR, feedback whether your calorie intake needs to be supplemented or reduced.
-- **Continuous Input**: Supports adding multiple food items in a single session until you choose to stop.
-
+- **Personal Profile Management**: Records your name, gender, age, height, and weight, and automatically calculates your BMI and BMR.
+- **BMI Calculation**: Computes your Body Mass Index based on your height and weight.
+- **BMR Calculation**: Computes your Basal Metabolic Rate according to gender, age, height, and weight.
+- **Calorie Tracking**: Select food items from a built-in food database, enter the grams consumed, and automatically accumulate total calorie intake.
+- **Exercise Burn Calculation**: Select exercises and duration to calculate calories burned.
+- **Weekly Report**: Displays calorie intake, calories burned, and net calories for each day of the week.
+- **Continuous Input**: Supports adding multiple food items and exercises in one session until the user chooses to stop.
+- **Custom Food and Exercise Data**: Allows users to add new food items and exercise types into the system.
 
 
 
 ## Quick Start
 
-
 1. **Run the program**:
-    
-        python calories_count.py
+
+   ```bash
+   python calories_count.py
     
 2.  **Usage Method**：
-    1.  Initialize a `user` object with your personal information.
-    2.  Select/Calculate the data you want in the menu.
-    3.  Call the `add_calories()` method to start tracking your food.
-    4.  Follow the prompts to enter the food name and the number of grams you ate.
-    5.  The program will display your current calorie intake and ask if you want to add more food.
+    1.  Create a new user account or use the default test account.
+    2.Enter the menu and choose the function you need.
+    3.Add food calories by selecting a food and entering the grams consumed.
+    4.Calculate calories burned by selecting an exercise and duration.
+    5.View your BMI, BMR, today’s calories, or weekly report at any time.
 
 
 
@@ -38,12 +38,14 @@ Our team creat a simple Python command-line tool to calculate your Basal Metabol
 
 | Method | Description |
 | :--- | :--- |
-| `__init__(name, gender, age, weight, height)` | Initializes a user object, calculates BMI and BMR. |
+| `__init__(name, gender, age, weight, height)` | Initializes a user object and calculates BMI and BMR. |
 | `get_bmi()` | Prints the user's Body Mass Index (BMI). |
 | `get_data()` | Prints the user's basic information. |
 | `get_bmr()` | Prints the user's Basal Metabolic Rate (BMR). |
-| `get_calories()` | Prints the total accumulated calorie intake. |
+| `get_calories()` | Prints the user's current total calorie intake. |
 | `add_calories()` | Starts the interactive food calorie tracking process. |
+| `calculate_exercise()` | Starts the interactive exercise calorie burn calculation process. |
+| `weekly_report()` | Displays the weekly calorie intake, burn, and net calorie report. |
 
 
 
@@ -65,6 +67,13 @@ The program comes with a built-in database of common foods and their calories (p
 
  You can easily modify the `food` dictionary in the code to add or update food items and their calorie values.
 
+## Built-in Exercise Database
+|Exercise|	30 min | 60 min| 90 min|
+|running|	300 | 600 | 900 |
+|swimming	250	| 500 | 750 |
+|yoga|	150	| 300 |	450 |
+|ycling| 200 | 400 | 600 |
+|weight| lifting |	350 | 700 | 1050 |
 
 ## Example Code
 
@@ -83,3 +92,9 @@ me.get_bmr()
 
 # Start tracking food calories
 me.add_calories()
+
+# Calculate exercise burn
+me.calculate_exercise()
+
+# View weekly report
+me.weekly_report()
