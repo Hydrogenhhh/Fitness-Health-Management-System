@@ -1,4 +1,5 @@
 # Fitness-Health-Management-System
+## Video Link: https://youtu.be/Xw2-ODuhelQ
 ## Calories Count
 
 Our team created a simple Python command-line tool to help users manage their daily health data. The system can calculate Body Mass Index (BMI), Basal Metabolic Rate (BMR), track food calorie intake, calculate exercise calorie burn, and generate a weekly calorie report.
@@ -23,12 +24,12 @@ Our team created a simple Python command-line tool to help users manage their da
    ```bash
    python calories_count.py
     
-2.  **Usage Method**：
-    1.  Create a new user account or use the default test account.
-    2.Enter the menu and choose the function you need.
-    3.Add food calories by selecting a food and entering the grams consumed.
-    4.Calculate calories burned by selecting an exercise and duration.
-    5.View your BMI, BMR, today’s calories, or weekly report at any time.
+2.  **Usage Method**：<br>
+    1.Create a new user account or use the default test account.<br>
+    2.Enter the menu and choose the function you need.<br>
+    3.Add food calories by selecting a food and entering the grams consumed.<br>
+    4.Calculate calories burned by selecting an exercise and duration.<br>
+    5.View your BMI, BMR, today’s calories, or weekly report at any time.<br>
 
 
 
@@ -67,13 +68,14 @@ The program comes with a built-in database of common foods and their calories (p
 
  You can easily modify the `food` dictionary in the code to add or update food items and their calorie values.
 
-## Built-in Exercise Database
-|Exercise|	30 min | 60 min| 90 min|
-|running|	300 | 600 | 900 |
-|swimming	250	| 500 | 750 |
-|yoga|	150	| 300 |	450 |
-|ycling| 200 | 400 | 600 |
-|weight| lifting |	350 | 700 | 1050 |
+| Exercise        | 30 min | 60 min | 90 min |
+| :-------------- | :----- | :----- | :----- |
+| running         | 300    | 600    | 900    |
+| swimming        | 250    | 500    | 750    |
+| yoga            | 150    | 300    | 450    |
+| cycling         | 200    | 400    | 600    |
+| weight lifting  | 350    | 700    | 1050   |
+| football        | 300    | 600    | 900    |
 
 ## Example Code
 
@@ -98,3 +100,6 @@ me.calculate_exercise()
 
 # View weekly report
 me.weekly_report()
+
+
+
