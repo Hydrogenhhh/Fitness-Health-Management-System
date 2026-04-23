@@ -22,7 +22,7 @@ Our team created a simple Python command-line tool to help users manage their da
 1. **Run the program**:
 
    ```bash
-   python calories_count.py
+   python Fitness-Health-Management-System
     
 2.  **Usage Method**：<br>
     1.Create a new user account or use the default test account.<br>
