@@ -22,7 +22,7 @@ Our team created a simple Python command-line tool to help users manage their da
 1. **Run the program**:
 
    ```bash
-   python Fitness-Health-Management-System
+   python Fitness-Health-Management-System.py
     
 2.  **Usage Method**：<br>
     1.Create a new user account or use the default test account.<br>
